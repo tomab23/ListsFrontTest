@@ -54,7 +54,7 @@ const MenuNavbarMobile = ({ handleDisconect }) => {
             {menuItems.map((item, index) => (
               <a
                 key={index}
-                className="block px-4 py-2 text-sm hover:bg-slate-500 text-white"
+                className="block px-4 py-2 text-sm hover:bg-slate-500 text-white cursor-pointer"
                 role="menuitem"
                 onClick={() => handleClick(item.url)}
               >

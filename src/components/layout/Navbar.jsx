@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className='px-5 pt-6 pb-4'>
       {userLog === "ok" ? 
           <div>
-          {window.innerWidth > 900 ? (
+          {window.innerWidth > 1100 ? (
             <NavbarDesktop handleDisconect={handleDisconect} />
           ) : (
             <div className="xs:pt-4 sm:pt-4">
@@ -26,8 +26,8 @@ const Navbar = () => {
           )}
           </div>
           :
-          <nav className='bg-red-600 rounded-xl flex justify-center items-center max-sm:w-[90vw] w-[58vw] px-3 py-1'>
-            <h2 className='uppercase'>Bienvenue sur YourList</h2>
+          <nav className='bg-red-600 rounded-xl flex justify-center items-center max-sm:w-[89vw] w-[58vw] px-3 py-1'>
+            <h2 className='uppercase' onClick={() => navigate("/")}>Bienvenue sur YourList</h2>
         </nav>
           }
     </div>

@@ -7,12 +7,13 @@ import CategoryPage from "./pages/CategoryPage"
 import TrashPage from "./pages/TrashPage"
 import SettingsPage from "./pages/SettingsPage"
 import UserPage from "./pages/UserPage"
+import RegisterPage from "./pages/RegisterPage"
 
 
 function App() {
   
   return (
-<div className="bg-gray-400 min-h-screen">
+<div className="base-app">
 <BrowserRouter basename="/">
       {/* <Routes>
       <Route path="/" element={<LoginPage />} />
@@ -27,6 +28,7 @@ function App() {
         <Route path="/trash" element={<TrashPage />} />
         <Route path="/setting" element={<SettingsPage />} />
         <Route path="/user" element={<UserPage />} />
+        <Route path="/register" element={<RegisterPage />} />
       </Routes>
       {/* <ScrollPage /> */}
     </BrowserRouter>
