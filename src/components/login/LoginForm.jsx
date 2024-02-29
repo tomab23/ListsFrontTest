@@ -20,7 +20,7 @@ const LoginForm = () => {
         <input type="text" placeholder="Mot de passe" className="w-[100%] max-sm:w-[90%] p-1"  />
         <p className="underline text-sm">mot de passe oublié ?</p>
         {/* Button log */}
-        <button onClick={handleLogin} className="mt-5">
+        <button onClick={handleLogin} className="mt-5 bg-red-400 w-[45%] self-center">
           Go home
         </button>
       </div>

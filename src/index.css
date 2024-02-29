@@ -4,10 +4,10 @@
 
 @layer components {
     .base-app {
-      @apply bg-gray-400 min-h-screen;
+      @apply bg-gray-400 min-h-screen pb-5;
       }
     .base-page {
-      @apply h-[85vh]  bg-slate-500 rounded-xl p-2 mx-5;
+      @apply min-h-[85vh]  bg-slate-500 rounded-xl p-2 mx-5;
       /* max-sm:mx-3 */
     }
   
